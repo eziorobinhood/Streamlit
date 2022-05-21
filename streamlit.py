@@ -1,4 +1,4 @@
-from matplotlib import image
+import matplotlib
 import streamlit as st
 import mediapipe as mp
 import cv2

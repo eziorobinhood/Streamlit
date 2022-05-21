@@ -111,7 +111,6 @@ elif app_mode == 'Run on Image':
         results = face_mesh.process(image)
         out_image = image.copy()
         print(out_image.shape)
-        print(results.__dict__)
         
         if results.multi_face_landmarks  != None:
             print(results.multi_face_landmarks)
